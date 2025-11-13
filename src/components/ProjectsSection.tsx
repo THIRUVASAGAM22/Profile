@@ -5,24 +5,24 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 const projects = [
   {
     title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, product management, and payment integration.',
-    tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-    link: '#',
-    github: '#',
+    description: 'A e-commerce solution with HTML CSS. Features include Products, about, FAQ and contact.',
+    tech: ['HTML5', 'CSS3', 'Javascript'],
+    link: 'https://cosmo-plants-ecommerce-site.netlify.app/',
+    github: 'https://github.com/THIRUVASAGAM22/Collections/tree/main/cosmo-plants-ecommerce-site',
   },
   {
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates. Built with React and Firebase for seamless team productivity.',
-    tech: ['React', 'Firebase', 'Tailwind CSS'],
-    link: '#',
-    github: '#',
+    title: 'Budget Buddy',
+    description: 'Budget Buddy is a modern web app for managing personal finances. Developed using React with TypeScript for a scalable, component-based front end, styled with Tailwind CSS.',
+    tech: ['React', 'Typescript', 'Tailwind CSS'],
+    link: 'https://budget-buddy-app-54.lovable.app',
+    github: 'https://github.com/THIRUVASAGAM22/budget-buddy-app-54',
   },
   {
     title: 'Weather Dashboard',
     description: 'Beautiful weather forecast application with location-based data visualization. Integrates multiple weather APIs for accurate predictions.',
-    tech: ['JavaScript', 'API Integration', 'Chart.js'],
-    link: '#',
-    github: '#',
+    tech: ['Python', 'API Integration', 'Flask'],
+    link: 'https://weather-dashboard-flask-app.onrender.com',
+    github: 'https://github.com/THIRUVASAGAM22/Collections/tree/main/weather-dashboard',
   },
 ];
 

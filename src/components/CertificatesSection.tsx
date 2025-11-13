@@ -5,17 +5,17 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 const certificates = [
   {
     title: 'Full Stack Web Development',
-    institution: 'Coursera - Meta',
-    date: '2024',
-    link: '#',
+    institution: 'Udemy',
+    date: '2025',
+    link: '../../public/javascript.jpg',
     description: 'Comprehensive certification covering frontend and backend development with modern frameworks.',
   },
   {
-    title: 'JavaScript Algorithms and Data Structures',
-    institution: 'freeCodeCamp',
-    date: '2023',
-    link: '#',
-    description: 'Advanced JavaScript programming, algorithms, and data structure implementations.',
+    title: 'The Complete Python Pro',
+    institution: 'Udemy',
+    date: '2025',
+    link: '../../public/python.jpg',
+    description: 'Comprehensive certification covering frontend, backdend, automation and testing.',
   },
 ];
 

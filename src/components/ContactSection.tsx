@@ -93,7 +93,7 @@ const ContactSection = () => {
                   type="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="your.email@example.com"
+                  placeholder="yourexample@gmail.com"
                   className="w-full"
                 />
               </div>
@@ -107,7 +107,7 @@ const ContactSection = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell me about your project..."
+                  placeholder="Currently this features is not enabled"
                   rows={6}
                   className="w-full resize-none"
                 />
@@ -125,7 +125,7 @@ const ContactSection = () => {
               variant="outline"
               size="icon"
               className="h-12 w-12"
-              onClick={() => window.open('mailto:your.email@example.com', '_blank')}
+              onClick={() => window.open('mailto:thiruvasagamt2@gmail.com', '')}
             >
               <Mail className="h-5 w-5" />
             </Button>
@@ -133,7 +133,7 @@ const ContactSection = () => {
               variant="outline"
               size="icon"
               className="h-12 w-12"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/', 'THIRUVASAGAM22/Collections')}
             >
               <Github className="h-5 w-5" />
             </Button>
@@ -141,7 +141,7 @@ const ContactSection = () => {
               variant="outline"
               size="icon"
               className="h-12 w-12"
-              onClick={() => window.open('https://linkedin.com', '_blank')}
+              onClick={() => window.open('https://linkedin.com/', 'in/thiruvasagam-y-58')}
             >
               <Linkedin className="h-5 w-5" />
             </Button>
