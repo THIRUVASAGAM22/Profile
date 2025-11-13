@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["profile-okrz.onrender.com"], // ✅ Add this
+  },
+  preview: {
+    allowedHosts: ["profile-okrz.onrender.com"], // (Optional but recommended)
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
