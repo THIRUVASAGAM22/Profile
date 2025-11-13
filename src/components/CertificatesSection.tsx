@@ -7,14 +7,14 @@ const certificates = [
     title: 'Full Stack Web Development',
     institution: 'Udemy',
     date: '2025',
-    link: '../../public/javascript.jpg',
+    link: 'https://subtle-zabaione-8a779c.netlify.app/',
     description: 'Comprehensive certification covering frontend and backend development with modern frameworks.',
   },
   {
     title: 'The Complete Python Pro',
     institution: 'Udemy',
     date: '2025',
-    link: '../../public/python.jpg',
+    link: 'https://ephemeral-pithivier-bd3392.netlify.app/',
     description: 'Comprehensive certification covering frontend, backdend, automation and testing.',
   },
 ];
